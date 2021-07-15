@@ -1,2 +1,2 @@
-# julyslam-js-starter
-A starter template repo for LaDebug July Slam JavaScript contest.
+# LaDebug JulySlam JavaScript Contest - Starter
+A starter repo for LaDebug July Slam JavaScript contest.
