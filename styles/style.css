@@ -1,0 +1,62 @@
+/* YOUR CSS GOES HERE */
+/* !REMOVE EXISTING STYLES BEFORE PROCEEDING! */
+body {
+  margin: 0;
+  font-family: "Poppins", "Roboto", sans-serif;
+  background: linear-gradient(
+    to left,
+    #23a6d5,
+    #4a148c,
+    #ff0066,
+    #4a148c,
+    #23a6d5
+  );
+  background-size: 400% 400%;
+  animation: gradientTranisition 50s linear infinite;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+body h2 {
+  font-weight: 400;
+  color: #fff;
+}
+
+/* 
+Countdown Styles
+*/
+
+span.countdown {
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 1.4rem;
+}
+
+span.countdown::after {
+  content: "⏰";
+  animation: clockWiggle 1s infinite linear;
+}
+
+@keyframes gradientTranisition {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
