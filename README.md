@@ -29,6 +29,8 @@ You are free to build up on it, and add some additional functionality like havin
 
 📄 README.md *-- Read Me file, no changes required*
 
+📄 .gitignore *-- Use this file to ignore files and directories*
+
 📁 scripts *-- JS files will be stored here*
 
 &nbsp;→&nbsp;&nbsp; 📄 core.js *-- JS code goes here*
